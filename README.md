@@ -52,6 +52,6 @@ npm start
 Any CSV document will work, as long as the column containing phone numbers contains a derivative
 of the string `phone`.
 
-i.e. `phone`, `phone_numbers`, `PHONE_NUMBERS`, `PHONE`
+i.e. `phone`, `phone_numbers`, `PHONE_NUMBERS`, `PHONE`, `phonenumbers`
 
 Only works with US phone numbers.
