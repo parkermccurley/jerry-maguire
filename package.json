@@ -17,6 +17,7 @@
   },
   "homepage": "https://gitlab.com/decentcrypto/jerry-maguire#README",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "twilio": "^3.6.4"
   }
 }
