@@ -16,7 +16,7 @@ function phones(data) {
     const phones = [];
 
     for (let i = 0; i < rows.length; i++) {
-      phones.push(rows[i][phoneIndex]);
+      phones.push(rows[i][phoneIndex].replace(/\D/g, ''));
     }
 
     return phones;
