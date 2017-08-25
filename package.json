@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://gitlab.com/decentcrypto/jerry-maguire/issues"
   },
-  "homepage": "https://gitlab.com/decentcrypto/jerry-maguire#README"
+  "homepage": "https://gitlab.com/decentcrypto/jerry-maguire#README",
+  "dependencies": {
+    "twilio": "^3.6.4"
+  }
 }
