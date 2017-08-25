@@ -42,6 +42,11 @@ Copy your CSV file into the project. See **CSV Requirements** for details.
 cp <path-to-csv> ./src/index.csv
 ```
 
+Copy your message file into the project. See **SMS Requirements** for details.
+```
+cp <path-to-txt> ./src/message.txt
+```
+
 That's it!
 ```
 npm start
@@ -55,3 +60,7 @@ of the string `phone`.
 i.e. `phone`, `phone_numbers`, `PHONE_NUMBERS`, `PHONE`, `phonenumbers`
 
 Only works with US phone numbers.
+
+## SMS Requirements
+
+Any text file under 160 characters will work.

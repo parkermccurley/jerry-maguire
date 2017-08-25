@@ -1,4 +1,5 @@
 const twilio = require('twilio');
+const fs     = require('fs');
 
 const {
   TWILIO_ID,
@@ -6,9 +7,11 @@ const {
   TWILIO_PHONE_NUMBER
 } = process.env;
 
+const body = fs.readFileSync(__dirname + '/../message.txt');
+
 function message(recepient) {
   const message = {
-    body: "It's alive!",
+    body: body,
     to:   recepient,
     from: TWILIO_PHONE_NUMBER,
   };
