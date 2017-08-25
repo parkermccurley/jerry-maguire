@@ -1,3 +1,7 @@
-Show me the money!
+# jerry-maguire
+
+```
+"Show me the money!"
+```
 
 Bulk SMS messenger.
