@@ -1,0 +1,19 @@
+{
+  "name": "jerry-maguire",
+  "version": "0.0.1",
+  "description": "Bulk SMS messenger.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/decentcrypto/jerry-maguire.git"
+  },
+  "author": "Parker McCurley",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/decentcrypto/jerry-maguire/issues"
+  },
+  "homepage": "https://gitlab.com/decentcrypto/jerry-maguire#README"
+}
