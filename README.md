@@ -37,7 +37,7 @@ Install dependencies.
 npm install
 ```
 
-Copy your CSV file into the project. See *CSV Requirements* for details.
+Copy your CSV file into the project. See **CSV Requirements** for details.
 ```
 cp <path-to-csv> ./src/index.csv
 ```
