@@ -1,6 +1,8 @@
 require('dotenv').config();
 
+const csv    = require('csv');
 const twilio = require('twilio');
+
 const { TWILIO_ID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER } = process.env;
 
 const message = {
