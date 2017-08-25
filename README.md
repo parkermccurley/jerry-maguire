@@ -63,4 +63,4 @@ Only works with US phone numbers.
 
 ## SMS Requirements
 
-Any text file under 160 characters will work.
+Any text file will work.
