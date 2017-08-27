@@ -4,7 +4,7 @@ function phones(data) {
 
   const getPhoneIndex = function(headers) {
     for (let i = 0; i < headers.length; i++) {
-      if (headers[i].includes("phone")) {
+      if (headers[i].toLowerCase().includes("phone")) {
         return i;
       }
     }
