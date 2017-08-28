@@ -16,7 +16,11 @@ function phones(data) {
     const phones = [];
 
     for (let i = 0; i < rows.length; i++) {
-      phones.push(rows[i][phoneIndex].replace(/\D/g, ''));
+      phone = rows[i][phoneIndex].replace(/\D/g, '');
+
+      if (phone.length >= 7 && phone.length < 11) {
+        phones.push(phone);
+      }
     }
 
     return phones;
