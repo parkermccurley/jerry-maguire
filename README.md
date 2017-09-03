@@ -10,7 +10,7 @@ Bulk SMS messenger, using `node.js` and Twilio.
 
 Clone this repository.
 ```
-git clone https://gitlab.com/decentcrypto/jerry-maguire.git
+git clone https://github.com/parkertm/jerry-maguire.git
 ```
 
 Enter the repository.
